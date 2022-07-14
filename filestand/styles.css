@@ -1,0 +1,192 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", sans-serif
+}
+
+body {
+    background-color: black;
+}
+
+h1,
+button {
+    font-family: "Montserrat", sans-serif
+}
+
+
+.hide {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+
+#codeForm {
+    display: inline;
+}
+
+#notice {
+    font-family: 'Fira Sans',
+        sans-serif;
+    color: #d1d1d1;
+    text-align: center;
+}
+
+.navBar {
+    background-color: black;
+    width: 100%;
+    height: 64px;
+}
+
+#logo {
+    height: 60px;
+}
+
+.navBarContentsContainer {
+    min-width: 100%;
+}
+
+.navBarContentsContainer p {
+    display: inline;
+    color: gold;
+}
+
+#navBarCodeDiv {
+    float: right;
+    padding-top: 23px;
+    padding-right: 2px;
+}
+
+#navBarCodeInput {
+    background-color: #d1d1d1;
+    color: black;
+    font-size: 15px;
+}
+
+
+@media (max-width: 322px) {
+    .navBar {
+        height: 140px;
+    }
+}
+
+
+#navbarcompleted {}
+
+
+.header {
+    background-color: black;
+    position: fixed;
+    top: 30%;
+    left: 20%;
+    width: 60%;
+
+}
+
+#newUserDiv {
+    background-color: rgb(78, 7, 63);
+    height: 6rem;
+    /* Center vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#getCodeDiv {
+
+    background-color: rgb(78, 7, 63);
+    height: 6rem;
+    /* Center vertically and horizontally */
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#getCodeDivCodeDiv {
+
+    display: contents;
+}
+
+#existingUserDiv {
+    background-color: rgb(78, 7, 63);
+    height: 6rem;
+    /* Center vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+
+.btn {
+
+    background-color: red;
+}
+
+.button-64 {
+    align-items: center;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+    outline: 0;
+}
+
+.button-64 span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+
+.button-64:hover span {
+    background: none;
+}
+
+@media (max-width: 375px) {
+    .header {
+        background-color: black;
+        position: fixed;
+        top: 30%;
+        left: 10%;
+        width: 80%;
+
+    }
+}
+
+
+@media (min-width: 768px) {
+    .button-64 {
+        font-size: 24px;
+        min-width: 196px;
+    }
+}

@@ -1,0 +1,19 @@
+
+<Files index.php>
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+ErrorDocument 404 /404.html
+
+# Deny access to .htaccess
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+# Disable directory browsing 
+Options -Indexes
+# Hide the contents of directories
+IndexIgnore *
+# Hide files of type .png, .zip, .jpg, .gif and .doc from listing
+IndexIgnore *.png *.zip *.jpg *.gif *.doc
